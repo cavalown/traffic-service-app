@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# node_modules 目錄
+node_modules/
+
+# Android生成的文件和目錄
+android/app/build/
+android/build/
+android/captures/
+android/local.properties
+
+# iOS生成的文件和目錄
+ios/Pods/
+ios/build/
+ios/Pods.xcodeproj/
+ios/DerivedData/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.xcworkspace/
+ios/*.xcuserdatad/
+ios/xcuserdata/
+
+# Debug/Log文件
+logs/
+*.log
+
+# 忽略自定義設置文件
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# 忽略自定義編譯生成目錄
+build/
+dist/
